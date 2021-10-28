@@ -1,0 +1,112 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button,
+.v-btn__content {
+    font-family: "Primary", sans-serif;
+    font-weight: normal;
+    letter-spacing: 0.5px;
+}
+
+.theme--dark.v-application {
+    background-color: $color-night !important;
+}
+
+h1,
+h2 {
+    font-size: 92px;
+}
+
+p,
+a,
+li,
+ul {
+    font-family: "Secondary", sans-serif;
+    letter-spacing: 0.5px;
+    font-size: 25px;
+}
+
+a {
+    color: $color-white;
+}
+
+.v-main section {
+    padding: 120px;
+}
+
+.v-btn:not(.v-btn--round).v-size--default {
+    padding: 25px 25px !important;
+    min-width: 150px;
+    border-radius: 8px;
+    font-size: 1.2rem !important;
+
+    &.btn {
+        &.light {
+            background: $color-white;
+            border: 2px solid $color-night;
+
+            > span {
+                color: $color-night;
+            }
+        }
+
+        &.dark {
+            background: $color-night;
+            border: 2px solid $color-white;
+
+            > span {
+                color: $color-white;
+            }
+        }
+
+        &.light:hover {
+            background: $color-night;
+            border: 2px solid $color-white;
+
+            > span {
+                color: $color-white;
+            }
+        }
+
+        &.dark:hover {
+            background: $color-white;
+            border: 2px solid $color-night;
+
+            > span {
+                color: $color-night;
+            }
+        }
+
+        &.invisible {
+            background: $color-invisible;
+        }
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    h1 {
+        font-size: 44px;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    p,
+    a,
+    li,
+    ul {
+        font-size: 16px;
+    }
+
+    .v-btn:not(.v-btn--round).v-size--default {
+        font-size: 16px !important;
+    }
+
+    .v-main section {
+        padding: 50px;
+    }
+}

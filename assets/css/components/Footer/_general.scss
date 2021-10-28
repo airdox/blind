@@ -1,0 +1,121 @@
+.footer {
+    margin: 0 10%;
+    padding-top: 150px;
+    .informations {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        .links {
+            .link {
+                margin: 5px 0;
+
+                a {
+                    color: $color-white;
+                }
+            }
+        }
+
+        .contacts {
+            address {
+                display: flex;
+                flex-direction: column;
+
+                .contact {
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+                    margin: 5px 0;
+
+                    i {
+                        margin-right: 10px;
+                    }
+
+                    a {
+                        font-style: normal;
+                        color: $color-white;
+                    }
+                }
+            }
+        }
+    }
+
+    hr {
+        margin: 50px;
+        height: 1px;
+        background-color: $color-white;
+        animation: glow 1s infinite alternate;
+    }
+
+    .social-networks {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 200px;
+        margin: 0 auto;
+
+        .v-icon {
+            font-size: 40px;
+        }
+    }
+
+    .copyright {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px 0;
+
+        p {
+            font-size: 16px;
+        }
+    }
+}
+
+@keyframes glow {
+    from {
+        box-shadow: 0 0 1px -1px $color-white;
+    }
+    to {
+        box-shadow: 0 0 1px 1px $color-white;
+    }
+}
+
+// Section: Media Query
+@media only screen and (max-width: 1100px) {
+    .footer > div {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer {
+        .informations {
+            flex-direction: column;
+
+            & > div {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                li {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+
+                address > .contact {
+                    display: flex;
+                    justify-content: center !important;
+                }
+            }
+        }
+
+        .copyright {
+            p {
+                text-align: center;
+            }
+        }
+    }
+}

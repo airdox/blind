@@ -1,0 +1,37 @@
+.header.light,
+.header-fixed.light {
+    background: $color-light !important;
+
+    &.invisible {
+        background: rgba(255, 255, 255, 0.5) !important;
+    }
+
+    .links > li {
+        a {
+            color: $color-night !important;
+        }
+
+        .chevron-down {
+            color: $color-night !important;
+        }
+
+        .menu-subs {
+            background: $color-night !important;
+
+            a::after {
+                background: $color-light !important;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .header.light,
+    .header-fixed.light {
+        .menu-mobile-trigger {
+            span {
+                background: $color-night !important;
+            }
+        }
+    }
+}

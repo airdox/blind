@@ -1,7 +1,10 @@
 .homepage {
   background-color: $color-light !important;
 
-  section {
-    padding: 80px 200px;
+  // section {
+  //   padding: 80px 200px;
+  // }
+  .headers {
+    position: absolute;
   }
 }

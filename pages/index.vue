@@ -22,6 +22,33 @@
         </v-btn>
       </NuxtLink>
     </section>
+    <section class="discover">
+      <h2>Découvrez nos artistes</h2>
+      <div class="artists-list">
+        <div class="artist">
+          <img src="@/assets/images/anais.png" alt="anais">
+          <p class="name">Anaïs Chesnay</p>
+          <p class="job">Artiste numérique</p>
+        </div>
+        <div class="artist">
+          <img src="@/assets/images/theodore.png" alt="anais">
+          <p class="name">Anaïs Chesnay</p>
+          <p class="job">Peintre</p>
+        </div>
+        <div class="artist">
+          <img src="@/assets/images/olivier.png" alt="anais">
+          <p class="name">Anaïs Chesnay</p>
+          <p class="job">Peintre</p>
+        </div>
+      </div>
+      <NuxtLink
+        to="/"
+      >
+        <v-btn depressed class="btn light">
+          Soutenir nos artistes
+        </v-btn>
+      </NuxtLink>
+    </section>
   </div>
 </template>
 

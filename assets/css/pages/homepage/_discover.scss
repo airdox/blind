@@ -1,0 +1,28 @@
+.discover {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 10px !important;
+
+  h2 {
+      margin-bottom: 15px;
+  }
+
+  .artists-list {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+    .artist {
+      margin-left: 15px;
+      .name {
+        font-family: "Primary", sans-serif;
+      }
+    }
+  }
+
+  button {
+    margin-top: 30px;
+  }
+}

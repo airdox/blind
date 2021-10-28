@@ -35,7 +35,7 @@
             </div>
             <ul class="menu-section">
               <div class="links">
-                <li class="selected">
+                <li>
                   <NuxtLink to="/">
                     Surprenez-moi
                   </NuxtLink>
@@ -60,7 +60,7 @@
             <NuxtLink
               to="/"
             >
-              <img src="@/assets/icons/user-icon.png" alt="'user-icon'">
+              <img src="@/assets/icons/basket-icon.png" alt="'user-icon'">
               <p>Mon panier</p>
             </NuxtLink>
             <NuxtLink

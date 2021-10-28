@@ -74,6 +74,22 @@ a {
             }
         }
 
+        &.transparent{
+            background-color: transparent;
+            border: 1px solid $color-black !important;
+            margin-bottom: 50px;
+        > span {
+            color: $color-black !important;
+            }
+        }
+        &.transparent:hover{
+            background-color: $color-black !important;
+            border: 1px solid $color-black !important;
+
+            color: $color-white !important;
+            }
+        
+
         &.dark {
             background: $color-night;
             border: 1px solid $color-white;

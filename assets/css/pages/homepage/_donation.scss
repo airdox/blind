@@ -1,5 +1,10 @@
 .donation {
   background: $color-light2;
+  p{
+    width: 80%;
+    margin: auto;
+    font-size: 21px;
+  }
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -7,9 +12,5 @@
 
   h2 {
     text-align: center;
-  }
-  p {
-    font-size: 21px;
-    width: 80%;
   }
 }

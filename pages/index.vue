@@ -3,6 +3,9 @@
     <section class="hero">
       <h1>blind</h1>
       <h2>laissez-vous guider par vos émotions</h2>
+      <v-btn depressed class="btn transparent">
+          C'est parti
+        </v-btn>
     </section>
     <section class="what_is_it">
       <h2>Blind qu'est-ce que c'est ?</h2>
@@ -26,18 +29,21 @@
       <h2>Découvrez nos artistes</h2>
       <div class="artists-list">
         <div class="artist">
-          <img src="@/assets/images/anais.png" alt="anais">
+          <img class="first-images" src="@/assets/images/anais.png" alt="anais">
+          <img class="image-switch" src="@/assets/images/img1.png" alt="anais art">
           <p class="name">Anaïs Chesnay</p>
           <p class="job">Artiste numérique</p>
         </div>
         <div class="artist">
-          <img src="@/assets/images/theodore.png" alt="anais">
-          <p class="name">Anaïs Chesnay</p>
+          <img class="first-images" src="@/assets/images/theodore.png" alt="anais">
+          <img class="image-switch" src="@/assets/images/img2.png" alt="theodore art">
+          <p class="name">Mariot Lagarde</p>
           <p class="job">Peintre</p>
         </div>
         <div class="artist">
-          <img src="@/assets/images/olivier.png" alt="anais">
-          <p class="name">Anaïs Chesnay</p>
+          <img class="first-images" src="@/assets/images/olivier.png" alt="anais">
+          <img class="image-switch" src="@/assets/images/img3.png" alt="olivier art">
+          <p class="name">Olivier Corbin</p>
           <p class="job">Peintre</p>
         </div>
       </div>

@@ -16,6 +16,20 @@
 
     .artist {
       margin-left: 15px;
+      position: relative;
+      .first-images:hover{
+        opacity: 0 !important;
+      }
+      .image-switch{
+        position: absolute;
+      top: 0%;
+      opacity: 0;
+      transition: 1s;
+      }
+      .image-switch:hover{
+        transition: 1s;
+      opacity: 1;
+      }
       .name {
         font-family: "Primary", sans-serif;
       }

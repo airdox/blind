@@ -38,11 +38,8 @@ export default {
 .step {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   width: 200px;
   text-align: center;
-
   &:first-child {
     transform: translateY(-23px);
   }

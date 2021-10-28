@@ -1,6 +1,15 @@
 .donation {
   background: $color-light2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
   h2 {
     text-align: center;
+  }
+  p {
+    font-size: 21px;
+    width: 80%;
   }
 }

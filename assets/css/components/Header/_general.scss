@@ -24,6 +24,16 @@
     &-item-left {
         display: flex;
         margin-right: 15px;
+
+      .brand {
+        height: 60px;
+        width: 60px;
+
+        img {
+          height: 100%;
+          width: 100%;
+        }
+      }
     }
 
     &-item-center {

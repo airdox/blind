@@ -1,0 +1,39 @@
+.how_does_it_work {
+    background: $color-light2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h2 {
+      margin-bottom: 60px;
+    }
+
+    .steps {
+      display: flex;
+      .step {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+        text-align: center;
+
+        .numero {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-family: "Primary", sans-serif;
+          font-size: 60px;
+          color: $color-invisible;
+          -webkit-text-stroke-width: 1.5px;
+          -webkit-text-stroke-color: $color-black;
+        }
+
+        .description {
+          font-size: 18px;
+          padding-bottom: 20px;
+        }
+      }
+    }
+}

@@ -15,7 +15,7 @@
             to="/"
             class="brand"
           >
-            <v-img max-height="150" max-width="250" src="/Logo-small.svg" />
+            <img src="/Logo-small.svg" alt="logo-small">
           </NuxtLink>
         </div>
         <!-- Section: Navbar Menu -->

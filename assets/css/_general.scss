@@ -6,31 +6,52 @@ h5,
 h6,
 button,
 .v-btn__content {
-    font-family: "Primary", sans-serif;
+    color: black;
     font-weight: normal;
     letter-spacing: 0.5px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: black;
+    font-family: "Primary", sans-serif;
+    font-weight: normal;
+}
+
+button,
+.v-btn__content {
+    color: $color-black !important;
+    font-family: "SecondaryLight", sans-serif;
 }
 
 .theme--dark.v-application {
     background-color: $color-night !important;
 }
 
-h1,
+h1 {
+    font-size: 250px;
+}
+
 h2 {
-    font-size: 92px;
+   font-size: 50px;
 }
 
 p,
 a,
 li,
 ul {
+    color: black;
     font-family: "Secondary", sans-serif;
     letter-spacing: 0.5px;
     font-size: 25px;
 }
 
 a {
-    color: $color-white;
+    color: $color-black;
 }
 
 .v-main section {
@@ -40,40 +61,40 @@ a {
 .v-btn:not(.v-btn--round).v-size--default {
     padding: 25px 25px !important;
     min-width: 150px;
-    border-radius: 8px;
+    border-radius: 50px;
     font-size: 1.2rem !important;
 
     &.btn {
         &.light {
-            background: $color-white;
-            border: 2px solid $color-night;
+            background: $color-light2;
+            border: 1px solid $color-black;
 
             > span {
-                color: $color-night;
+                color: $color-black !important;
             }
         }
 
         &.dark {
             background: $color-night;
-            border: 2px solid $color-white;
+            border: 1px solid $color-white;
 
             > span {
-                color: $color-white;
+                color: $color-black !important;
             }
         }
 
         &.light:hover {
-            background: $color-night;
-            border: 2px solid $color-white;
+            background: $color-light;
+            border: 1px solid $color-black;
 
             > span {
-                color: $color-white;
+                color: $color-black;
             }
         }
 
         &.dark:hover {
             background: $color-white;
-            border: 2px solid $color-night;
+            border: 1px solid $color-night;
 
             > span {
                 color: $color-night;

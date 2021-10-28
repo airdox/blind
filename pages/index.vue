@@ -49,6 +49,13 @@
         </v-btn>
       </NuxtLink>
     </section>
+    <section class="donation">
+      <h2>Vous voulez faire un don à un artiste ?</h2>
+      <p>
+        Chez Blind nous mettons en avant des artistes qui ont peu de visibilité.
+        C’est pourquoi de soutenir l’artiste de votre choix, en échange vous recevrez une oeuvre de l’artiste que vous avez choisi correspondant au montant que vous lui avez offert.
+      </p>
+    </section>
   </div>
 </template>
 
